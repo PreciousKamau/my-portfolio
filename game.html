@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrambled Name Challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="scrambleGame.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my portfolio</h1>
+        <h2>Scrambled Name Game</h2>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="game.html">Game</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="scramble-game">
+        <p><strong>Quote:</strong> <span id="quote"></span></p>
+        <p><strong>Hint (Anime):</strong> <span id="anime-hint"></span></p>
+        <p><strong>Scrambled Name:</strong> <span id="scrambled-name"></span></p>
+
+        <input type="text" id="user-input" placeholder="Enter the correct name">
+        <button onclick="checkAnswer()">Submit</button>
+
+        <p id="feedback"></p>
+        <p id="fun-fact" style="display: none;"></p>
+    </section>
+</body>
+</html>
