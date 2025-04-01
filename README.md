@@ -47,8 +47,8 @@ You can view the site live on **GitHub Pages**:
 - **JavaScript** - Interactive elements (game, form validation)
 
 ## Contact
-Email: your@email.com  
-Instagram: [@yourhandle](https://instagram.com/yourhandle)  
+Email: preciouswkamau@gmail.com  
+Instagram: [anime_alphawolf](https://instagram.com/yourhandle)  
 
 ---
 Work of Precious Kamau
